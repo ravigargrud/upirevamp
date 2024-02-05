@@ -83,14 +83,49 @@ function App() {
 
       <div className='translist'>
           <div className='transitem'>
-            <div className='transitemhead'>Sent</div>
-            <div className='transitemhead'>Received</div>
+            <div className='transitemhead'>Sent $500 to Ravi</div>
+            <div className='transitemhead'>Received $150 from Gursimar</div>
           </div>
           </div>
 
        </div>
 
       <div className='exploremore'>
+
+      <div className='headexp'>
+      <p>EXPLORE MORE</p>
+      <button>View All</button>
+      </div>
+
+      <div className='explorelist'>
+        <div className = 'exploreoptions'>
+        <div className = 'options'>
+          <div className='option'>
+            <img src={UpiIcon} alt=''></img>
+            Tickets</div>
+          <div className='option'>
+          <img src={UpiIcon} alt=''></img>
+          Utility Bills</div>
+          </div>
+        <div className = 'options'>
+        <div className='option'>
+        <img src={UpiIcon} alt=''></img>
+        Recharge</div>
+        <div className='option'>
+        <img src={UpiIcon} alt=''></img>
+        Offers</div>
+        </div>
+
+        <div className = 'refer'>
+          <img src={AddSign} alt=''></img>
+          <p>Invite your friend to RUPI through email.
+          </p>
+          <div className='refermail'><input type="text" placeholder="Enter Email" /> <button>Invite</button></div>
+        </div>
+
+        </div>
+        
+      </div>
       </div>
 
     </div>
