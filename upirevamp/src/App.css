@@ -1,12 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
 .header {
-  width: 1260px;
+  width: 1516px;
   height: 60px;
   background-color: black;
   color: white;
@@ -33,7 +30,7 @@
   height: 35px;
   background-color: #1A1B1D;
   color: white;
-  margin-left: 650px;
+  margin-left: 950px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -62,18 +59,18 @@
 .mainbody{
   display: flex;
   flex-direction: row;
-  height: 500px;
-  width: 1260px;
-  background-color: #1A1B1D;
+  height: 630px;
+  width: 1516px;
+  background-color: black;
   padding: 10px;
 }
 
 .listicons {
   display: flex;
   flex-direction: column;
-  width: 25px;
-  background-color: #1A1B1D;
-  padding: 10px;
+  width: 50px;
+  background: linear-gradient(180deg, #1A1B1D 0%, #000000 100%);
+  padding: 15px;
   border-radius: 20px;;
   margin-left: 10px;
   margin-right: 20px;
@@ -90,11 +87,11 @@
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 300px;
-  background-color: #1A1B1D;
+  background: linear-gradient(90deg, #1A1B1D 0%, #000000 100%);
   padding: 10px;
   border-radius: 20px;
   margin-left: 10px;
+  margin-right: 30px;
 }
 
 .bwhead {
@@ -102,7 +99,6 @@
   flex-direction: row;
   width: 300px;
   height: 50px;
-  background-color: #1A1B1D;
   padding: 10px;
   border-radius: 20px;
 }
@@ -122,7 +118,6 @@
   flex-direction: row;
   width: 300px;
   height: 50px;
-  background-color: #1A1B1D;
   padding: 10px;
   border-radius: 20px;
   margin: 10px;
@@ -130,7 +125,7 @@
 
 .tranbtn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 300px;
   height: 50px;
   background-color: #D9D9D9;
@@ -146,9 +141,8 @@
 .transactionstab {
   display: flex;
   flex-direction: row;
-  width: 600px;
+  width: 880px;
   height: 50px;
-  background-color: #1A1B1D;
   padding: 10px;
   border-radius: 20px;
 }
@@ -156,21 +150,20 @@
 .transmain {
 
   padding: 10px;
-  width: 650px;
+  width: 900px;
   height: 275px;
 
 /* COMMENT */
 
   border-radius: 20px;
-  border: 1px solid #D9D9D9;
+  background: linear-gradient(90deg, #1A1B1D 0%, #000000 100%);
 }
 
 .transhead {
   display: flex;
   flex-direction: row;
-  width: 300px;
+  width: 880px;
   height: 100px;
-  background-color: #1A1B1D;
   padding: 10px;
   border-radius: 20px;
   text-align: left;
@@ -201,24 +194,25 @@
 .translist {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 880px;
   height: 200px;
-  background-color: #1A1B1D;
   border-radius: 20px;
   margin: 10px;
 }
 
 .transitem {
-  width: 600px;
+  width: 880px;
   height: 50px;
   border-radius: 20px;
   margin: 10px;
 }
 
 .transitemhead {
-  width: 600px;
+  width: 830px;
   height: 50px;
-  background-color: black;
+  background-color: #D1D1E3;
+  color: black;
+  align-items: center;
   padding: 10px;
   border-radius: 20px;
   margin-top: 10px;
@@ -229,21 +223,19 @@
 .exploremore {
   display: flex;
   flex-direction: column;
-  width: 650px;
-  height: 150px;
-  background-color: #1A1B1D;
+  width: 850px;
+  height: 300px;
   padding: 10px;
   border-radius: 20px;
   margin-top: 10px;
-  border: 1px solid #D9D9D9;
+  background: linear-gradient(90deg, #1A1B1D 0%, #000000 100%);
 }
 
 .headexp {
   display: flex;
   flex-direction: row;
-  width: 300px;
+  width: 400px;
   height: 40px;
-  background-color: #1A1B1D;
   padding: 10px;
   border-radius: 20px;
   text-align: left;
@@ -269,27 +261,24 @@
 .explorelist {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 800px;
   height: 100px;
-  background-color: #1A1B1D;
   border-radius: 20px;
-  margin: 10px; 
 }
 
 .exploreoptions {
   display: flex;
   flex-direction: row;
-  width: 600px;
+  width: 800px;
   height: 50px;
-  background-color: #1A1B1D;
   padding: 10px;
   border-radius: 20px;
   margin: 10px;
 }
 
 .option {
-  width: 150px;
-  height: 65px;
+  width: 180px;
+  height: 80px;
   background-color: #D9D9D9;
   padding: 10px;
   border-radius: 20px;
@@ -305,23 +294,19 @@
   display: flex;
   flex-direction: column;
   width: 650px;
-  height: 150px;
-  background-color: #1A1B1D;
+  height: 160px;
   padding: 10px;
   border-radius: 20px;
   margin-top: 10px;
-  border: 1px solid #D9D9D9;
   align-items: left;
 }
 
 .refer img {
   width: auto;
-  height: 50px;
-  margin: 10px;
+  height: 100px;
 }
 
 .refer p {
-  margin: 0;
   padding: 0;
   color: white;
   font-size: 10px;
@@ -333,11 +318,23 @@
   width: 60px;
   height: 50px;
   margin: 0;
+  horizontal-align: middle;
 }
 
 .refermail input {
   height: 25px;
-  width: 110px;
+  width: 180px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #D9D9D9;
+  color: black;
+}
+
+.refermail button {
+  height: 45px;
+  width: 100px;
   border-radius: 20px;
   margin: 10px;
   padding: 10px;

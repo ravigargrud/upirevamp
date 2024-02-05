@@ -11,6 +11,11 @@ import WithdrawIcon from './assets/WithdrawIcon.svg'
 import SettingsIcon from './assets/SettingsIcon.svg'
 import profile from './assets/PP.svg'
 import notificationLogo from './assets/notifications.png'
+import offers from './assets/offers.svg'
+import recharge from './assets/recharge.svg'
+import refer from './assets/refer.svg'
+import travel from './assets/travel.svg'
+import utility from './assets/utility.svg'
 import './App.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -27,7 +32,7 @@ function App() {
         </div>
         <div className="searchbar">
       <input type="text" placeholder="Search..." />
-      <i className="fa fa-search"></i>
+      <img src={SearchIcon} className="vite-logo" alt="vite logo" />
     </div>
     <img className="notifimg" src={notificationLogo} alt='notification'></img>
       </div>
@@ -42,7 +47,7 @@ function App() {
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
-        <img src={viteLogo} className="vite-logo" alt="vite logo" />
+        <img src={SettingsIcon} className="vite-logo" alt="vite logo" />
       </div>
 
       <div className='balancewindow'>
@@ -50,21 +55,30 @@ function App() {
           <button>Delhi, IN</button>
           11:45 PM
         </div>
-        <div className='accbal'> Account Balance 
-          <img src={viteLogo} alt=''></img>
+        <div className='accbal'> Account Balance <t></t>
+          <img src={BalanceIcon} alt=''></img>
         </div>
         $100
         <div className='balancebtns'>
           <div className='tranbtn'>
+          <img src={AddSign} alt=''></img>
             Add Funds </div>
-          <div className='tranbtn'>Withdraw</div>
+          <div className='tranbtn'>
+          <img src={WithdrawIcon} alt=''></img>
+          Withdraw</div>
         </div>
         <div className='balancebtns'>
-          <div className='tranbtn'>Pay UPI ID</div>
-          <div className='tranbtn'>Pay Contact</div>
+          <div className='tranbtn'>
+          <img src={UpiIcon} alt=''></img>
+          Pay UPI ID</div>
+          <div className='tranbtn'>
+          <img src={ContactIcon} alt=''></img>
+          Pay Contact</div>
         </div>
         <div className='balancebtns'>
-        <div className='tranbtn'>Pay via NFC</div></div>
+        <div className='tranbtn'>
+        <img src={NFCIcon} alt=''></img>
+        Pay via NFC</div></div>
 
       </div>
     
@@ -101,23 +115,23 @@ function App() {
         <div className = 'exploreoptions'>
         <div className = 'options'>
           <div className='option'>
-            <img src={UpiIcon} alt=''></img>
+            <img src={travel} alt=''></img>
             Tickets</div>
           <div className='option'>
-          <img src={UpiIcon} alt=''></img>
+          <img src={utility} alt=''></img>
           Utility Bills</div>
           </div>
         <div className = 'options'>
         <div className='option'>
-        <img src={UpiIcon} alt=''></img>
+        <img src={recharge} alt=''></img>
         Recharge</div>
         <div className='option'>
-        <img src={UpiIcon} alt=''></img>
+        <img src={offers} alt=''></img>
         Offers</div>
         </div>
 
         <div className = 'refer'>
-          <img src={AddSign} alt=''></img>
+          <img src={refer} alt=''></img>
           <p>Invite your friend to RUPI through email.
           </p>
           <div className='refermail'><input type="text" placeholder="Enter Email" /> <button>Invite</button></div>
