@@ -1,6 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import AddSign from './assets/AddSign.svg'
+import BalanceIcon from './assets/BalanceIcon.svg'
+import ContactIcon from './assets/ContactIcon.svg'
+import NFCIcon from './assets/NfcIcon.svg'
+import SearchIcon from './assets/SearchIcon.svg'
+import UpiIcon from './assets/UpiIcon.svg'
+import WithdrawIcon from './assets/WithdrawIcon.svg'
+import SettingsIcon from './assets/SettingsIcon.svg'
+import profile from './assets/PP.svg'
 import notificationLogo from './assets/notifications.png'
 import './App.css'
 import '@fortawesome/fontawesome-free/css/all.css'
@@ -8,12 +17,11 @@ import '@fortawesome/fontawesome-free/css/all.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div className="header">
-        <img src={reactLogo} className="react-logo" alt="react logo" />
+        <img src={profile} className="react-logo" alt="react logo" />
         <div id="headtxt">Howdy, <br></br>
         <h3> Pearl</h3>
         </div>
@@ -26,9 +34,10 @@ function App() {
 
 
     <div className='mainbody'>
+
       <div className='listicons'>
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
-        <img src={viteLogo} className="vite-logo" alt="vite logo" />
+        <img src={SearchIcon} className="vite-logo" alt="vite logo" />
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
         <img src={viteLogo} className="vite-logo" alt="vite logo" />
@@ -58,6 +67,34 @@ function App() {
         <div className='tranbtn'>Pay via NFC</div></div>
 
       </div>
+    
+
+
+    <div className='transactionswindow'>
+
+      <div className='transmain'>
+      <div className='transactionstab'>
+        <div className='transhead'> 
+        <div><b> Recent Transactions </b> <br></br> Powered by Blockchain
+        </div>
+        </div>
+        <div className='transbtn'>View All</div>
+      </div>
+
+      <div className='translist'>
+          <div className='transitem'>
+            <div className='transitemhead'>Sent</div>
+            <div className='transitemhead'>Received</div>
+          </div>
+          </div>
+
+       </div>
+
+      <div className='exploremore'>
+      </div>
+
+    </div>
+
     </div>
     </>
   )
