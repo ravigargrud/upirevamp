@@ -5,38 +5,129 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header {
+  width: 1260px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex: 1;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header #headtxt {
+  margin-left: 10px;
+  text-align: left;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header h3 {
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-  padding: 2em;
+.searchbar {
+  width: 300px;
+  height: 35px;
+  background-color: #1A1B1D;
+  color: white;
+  margin-left: 650px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Style for the input field */
+.searchbar input {
+  flex: 1; /* Take up remaining space */
+  border: none; /* Remove border */
+  background: none; /* Remove background */
+  color: white;
+  outline: none; /* Remove outline */
 }
+
+/* Style for the search icon */
+.searchbar i {
+  margin-right: 10px; /* Adjust spacing between icon and input field */
+}
+
+.notifimg {
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.mainbody{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 1260px;
+  background-color: #1A1B1D;
+  padding: 10px;
+}
+
+.listicons {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  background-color: #1A1B1D;
+  padding: 10px;
+  border-radius: 20px;;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.listicons img {
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.balancewindow {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background-color: #1A1B1D;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.bwhead {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+  background-color: #1A1B1D;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.balancebtns {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+  background-color: #1A1B1D;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.tranbtn {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+  background-color: #D9D9D9;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  color: black;
+}
+
