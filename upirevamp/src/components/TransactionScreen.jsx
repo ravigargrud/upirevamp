@@ -4,6 +4,9 @@ import refer from '../assets/refer.svg'
 import travel from '../assets/travel.svg'
 import utility from '../assets/utility.svg'
 import '../App.css'
+import React from 'react'
+
+let items = ['item1', 'item2', 'item3'];
 
 function TransactionScreen() {
   return (
@@ -20,10 +23,12 @@ function TransactionScreen() {
 </div>
 
 <div className='translist'>
-    <div className='transitem'>
-      <div className='transitemhead'>Sent $500 to Ravi</div>
-      <div className='transitemhead'>Received $150 from Gursimar</div>
-    </div>
+{items.map((item, index) => (
+  <React.Fragment key={index}>
+    <div className='transitemhead'>{item}</div>
+  </React.Fragment>
+))}
+
     </div>
 
  </div>

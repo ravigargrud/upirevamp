@@ -39,10 +39,10 @@ function BalanceScreen() {
           <button>Delhi, IN</button>
           11:45 PM
         </div>
-        <div className='accbal'> Account Balance <t></t>
+        <div className='accbal'> <p> Account Balance </p>
           <img src={BalanceIcon} alt='' />
         </div>
-        $100
+        <p id="amount">$100</p>
         {showTransactionWindow && (
         <div className='addfunds'>
         <div className='addfundshead'>{showAddFunds}</div>
